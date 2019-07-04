@@ -11,7 +11,7 @@ import com.jee4a.user.api.model.UserModel;
  * @author tpeng 2018年1月29日
  * @email 398222836@qq.com
  */
-public interface UserApiServcie {
+public interface UserApi {
 	
 	@RequestMapping(value = "api/user" ,method = RequestMethod.GET)
 	String queryUserById(@RequestParam("id")  Integer id) ;
